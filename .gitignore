@@ -1,0 +1,25 @@
+# Generated files
+/qrc_resources.cpp
+/qrc_resources.o
+/moc_motaza.cpp
+/moc_motaza.o
+/moc_predefs.h
+/ui_motaza.h
+/motaza.o
+/main.o
+/Makefile
+
+# QMake
+/.qmake.stash
+
+# CMake
+/.qt
+/.cache
+/CMakeCache.txt
+/CMakeFiles
+/cmake_install.cmake
+/motaza_autogen
+/compile_commands.json
+
+# App
+/motaza
