@@ -3277,11 +3277,11 @@ void Motaza::keyPressEvent(QKeyEvent *event)
         t.caretPos++;
         break;
       case Qt::Key_Left:
-        if (t.caretPos == 0) return;
+        if (t.caretPos == 0) break;
         t.caretPos--;
         break;
       case Qt::Key_Right:
-        if (t.caretPos == t.text.size()) return;
+        if (t.caretPos == t.text.size()) break;
         t.caretPos++;
         break;
       case Qt::Key_Up:
