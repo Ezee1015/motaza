@@ -3338,6 +3338,14 @@ void Motaza::keyPressEvent(QKeyEvent *event)
     case Qt::Key_F: action = ACTION_FREEFORM;      break;
     case Qt::Key_H: action = ACTION_HIGHLIGHT;     break;
 
+    case Qt::Key_V:
+                    if (shiftPressed) {
+                      action = ACTION_SAVE_TRIMMED_TO_CLIPBOARD;
+                    } else {
+                      action = ACTION_SAVE_TRIMMED_TO_IMAGE;
+                    }
+                    break;
+
     case Qt::Key_E:
                     if (shiftPressed) {
                       action = ACTION_SAVE_PROJECT;
